@@ -1,0 +1,29 @@
+.menu {
+  background: #45b29d;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  transition: .5s ease-in-out;
+}
+
+.logo_svg {
+  width: 50px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.logo_path {
+  fill: #faf;
+}
+
+.main-top-section {
+  background: url("img/homepage-hero_1.jpg")no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  background-position: left -100px top 0;
+}
